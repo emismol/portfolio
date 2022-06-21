@@ -1,10 +1,22 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: lightsteelblue;
   }
 
-body {
-    color: purple;
-    font-family: Helvetica, Arial, sans-serif;
+header{
+    text-align: center;
+}
+header nav ul li {
+    display: inline;
   }
+.intro {
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+}
+
+.communicate {
+    text-align: center;
+}
