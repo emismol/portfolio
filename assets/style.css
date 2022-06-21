@@ -21,22 +21,21 @@ header nav ul li {
     text-align: center;
 }
 
-.projects h2 {
-    text-align: center;
-}
-.projects {
-    -- gap: 16px;
-    --num-cols: 2;
-    --row-height: 300px;
-    box-sizing: border-box;
-    padding: var(--gap);
-    display: grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    grid-auto-rows: var(--row-height);
-    gap: var(--gap);
+.project-preview{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
-.projects > img {
+.project-preview > li {
+    flex-basis: 400px;
+}
+
+.project-preview > li img {
+    object-fit: cover;
     width: 100px;
     height: 100px;
+    vertical-align: middle;
+    border-radius: 5px;
 }
