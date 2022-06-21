@@ -6,6 +6,12 @@ body {
 header{
     text-align: center;
 }
+
+header img {
+    float:inline-start;
+    width: 15%;
+    height: 10%;
+}
 header nav ul li {
     display: inline;
   }
