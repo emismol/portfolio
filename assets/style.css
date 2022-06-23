@@ -15,6 +15,7 @@ header img {
 header nav ul li {
     display: inline;
     font-size: larger;
+    
   }
 .intro {
     text-align: center;
@@ -23,6 +24,7 @@ header nav ul li {
 .projects {
     text-align: center;
     border: 5px red;
+    padding: 10% 0% 10% 0%;
 }
 
 .communicate {
