@@ -22,6 +22,7 @@ header nav ul li {
 
 .projects {
     text-align: center;
+    border: 5px red;
 }
 
 .communicate {
@@ -32,12 +33,14 @@ header nav ul li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    /*gap: 10px; */
     border: 5px red;
+    margin: 5px;
 }
 
 #first-project {
     border: 5px blue;
+    flex-grow: 2;
 }
 
 .project-preview > li {
@@ -47,7 +50,7 @@ header nav ul li {
 
 .project-preview > li img {
     object-fit: cover;
-    width: 100px;
+    width: 50%;
     height: 100px;
     vertical-align: middle;
     border-radius: 5px;
