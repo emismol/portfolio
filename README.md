@@ -5,3 +5,4 @@ Create a portfolio from scratch. The portfolio is complete when it is loaded and
 The links take the user to the appropriate section sucessfully. When a project image is clicked it should take the user to the corresponding project. The first project image is larger than the rest. All the project images are titled. When the page is resized on various devices it should adjust accordingly.
 
 [Link to Github Repository](https://github.com/emismol/portfolio)
+[Link to Project](https://emismol.github.io/portfolio/)
